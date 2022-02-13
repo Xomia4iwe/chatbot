@@ -3,7 +3,6 @@
 import logging
 import random
 
-# from _token import token
 try:
     import settings
 except ImportError:
@@ -36,6 +35,7 @@ class Bot:
     Echo bot для vk.com
     Use python3.7
     """
+
     def __init__(self, group_id, token):
         """
         :param group_id: group id из группы vk
